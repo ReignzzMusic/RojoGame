@@ -18,7 +18,7 @@ function module:Init()
     --#endregion
 
     game:GetService("RunService").RenderStepped:Connect(function(deltaTime)
-        self:Update(deltaTime)        
+        self:Update(deltaTime);       
     end)
 end
 
